@@ -1,4 +1,3 @@
-
 ---
 
 ````markdown
@@ -43,25 +42,17 @@ This tool uses `dialog` to provide an interactive menu for users and sysadmins t
   ```
 
 📌 **Note for WSL Users**:
-This script can run in **WSL** but features like `systemctl` may not work unless you’re using a WSL version that supports `systemd` (e.g., Ubuntu 22.04+ with `wsl.conf` configured). SSH service management might be limited on older WSL setups.
+This script can run in **WSL**, but features like `systemctl` may not work unless you're using a WSL version that supports `systemd` (e.g., Ubuntu 22.04+ with `wsl.conf` configured). SSH service management might be limited on older WSL setups.
 
 ---
 
 ## 🚀 Installation & Usage
 
-1. Clone the repository or download the script:
+1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/ssh-setup-tool.git
-   cd ssh-setup-tool
-   chmod +x ssh-setup.sh
-   sudo ./ssh-setup.sh
-   ```
-
-   OR download directly:
-
-   ```bash
-   wget https://raw.githubusercontent.com/yourusername/ssh-setup-tool/main/ssh-setup.sh
+   git clone https://github.com/aswaladitya/Linux-ST-03.git
+   cd Linux-ST-03
    chmod +x ssh-setup.sh
    sudo ./ssh-setup.sh
    ```
@@ -71,9 +62,9 @@ This script can run in **WSL** but features like `systemctl` may not work unless
 ## 📁 File Structure
 
 ```
-ssh-setup-tool/
+Linux-ST-03/
 ├── ssh-setup.sh       # Main executable script
-├── README.md          # This file
+├── README.md          # Project documentation
 ```
 
 ---
@@ -94,11 +85,11 @@ MIT License — free to use, modify, and distribute.
 
 ## 🙋‍♂️ Author
 
-Made with ❤️ by Aditya (https://github.com/aswaladitya/Linux-ST-03)
+Made with ❤️ by [aswaladitya](https://github.com/aswaladitya)
 
 ```
 
 ---
 
-Let me know if you'd like me to generate a GitHub repo structure for this automatically or help push it to GitHub.
+You can now copy this into your `README.md` file inside your `Linux-ST-03` repository. Let me know if you want badges, screenshots (of the dialog UI), or demo GIFs added too.
 ```
